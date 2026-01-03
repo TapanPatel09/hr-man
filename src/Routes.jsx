@@ -3,12 +3,12 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
-import AttendanceTracking from './pages/attendance-tracking';
-import SignUpRegistration from './pages/sign-up-registration';
-import EmployeeDashboard from './pages/employee-dashboard';
-import EmployeeProfileManagement from './pages/employee-profile-management';
-import LeaveApplication from './pages/leave-application';
-import AdminHRDashboard from './pages/admin-hr-dashboard';
+import AttendanceTracking from 'pages/attendance-tracking';
+import SignUpRegistration from 'pages/sign-up-registration';
+import EmployeeDashboard from 'pages/employee-dashboard';
+import EmployeeProfileManagement from 'pages/employee-profile-management';
+import LeaveApplication from 'pages/leave-application';
+import AdminHRDashboard from 'pages/admin-hr-dashboard';
 
 const Routes = () => {
   return (
